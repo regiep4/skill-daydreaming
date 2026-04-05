@@ -138,9 +138,26 @@ Run a continuity checkpoint and save the latest saved result.
 Run a continuity checkpoint and save the latest draft result.
 
 ```text
+/skill daydreaming promote
+```
+Promote the latest draft result into the latest saved result.
+
+```text
+/skill daydreaming load
+```
+Load the latest saved result back into working context so the agent can actively use it, not just display it.
+
+Plain-language gloss: **working context** means the current context the agent is actively using for the next step of work.
+
+```text
 /skill daydreaming view
 ```
-Display the latest saved result without creating a new run.
+Display the latest saved result without creating a new run or loading it back into active use.
+
+```text
+/skill daydreaming view draft
+```
+Display the latest draft result without creating a new run.
 
 ## Repo contents
 
