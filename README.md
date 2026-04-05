@@ -1,8 +1,10 @@
 # daydreaming
 
-Public v1 continuity checkpoint skill for bounded recent context review.
+Most agent memory systems try to save more. DayDreaming tries to judge better.
 
-DayDreaming helps an agent decide what should meaningfully carry forward into the next restart, what should stay visible but lighter, and what should remain restrained. It is report-first, conservative, bounded, and explicit about persistence.
+DayDreaming is a public v1 continuity checkpoint skill for bounded recent context review. It helps an agent decide what should meaningfully carry forward into the next restart, what should stay visible but lighter, and what should remain restrained.
+
+Agents lose continuity easily: context windows reset, recent work blurs together, and not every piece of context deserves stronger memory. DayDreaming is designed for that exact problem. It is report-first, conservative, bounded, and explicit about persistence.
 
 ## Install
 
