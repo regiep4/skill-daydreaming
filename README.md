@@ -10,6 +10,20 @@ DayDreaming helps an agent decide what should meaningfully carry forward into th
 npx skills add regiep4/skill-daydreaming@daydreaming
 ```
 
+## Compatibility
+
+This repo is intended for skill runtimes that consume a `SKILL.md`-based skill package/install flow.
+
+Current intended targets:
+
+- OpenClaw
+- Claude Code / Codex-style skill workflows
+- other compatible skill runtimes that support this package pattern
+
+Primary install surface:
+
+- `npx skills add regiep4/skill-daydreaming@daydreaming`
+
 ## What this skill does
 
 DayDreaming runs a bounded continuity checkpoint over recent, explicitly selected context. Instead of treating all recent context as equally worth saving, it applies restart-oriented judgment and produces a compact result that says:
